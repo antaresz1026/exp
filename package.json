@@ -1,0 +1,20 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git add . && bash /home/antaresz/Projects/Coding_Devil/scripts/commit.sh"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "keywords": [],
+  "author": "antaresz",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cz": "^1.8.2"
+  }
+}

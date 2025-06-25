@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/home/antaresz/Projects/${fileWorkspaceFolderBasename}/execution/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/home/antaresz/.local/gdb-14/bin/gdb",
+      "preLaunchTask": "build"
+    }
+  ]
+}
